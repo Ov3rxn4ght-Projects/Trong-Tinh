@@ -11,4 +11,4 @@
     cipher + (k*256) = 123*char + 18
     cipher + (k*256) - 18 / 123
     
-## $\frac{cipher + (k \times 256 ) }{4}$
+## char = $\frac{cipher + (k \times 256 ) - 18 }{123}$
