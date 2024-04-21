@@ -11,7 +11,7 @@
     cipher + (k*256) = 123*char + 18
     cipher + (k*256) - 18 / 123
     
-## char = $\frac{cipher + (k \times 256 )  -  18 }{123}$
+### char = $\frac{cipher + (k \times 256 )  -  18 }{123}$
 
-## The full code snipshet see the 'solve.py'
+### The full code snipshet see the 'solve.py'
 
