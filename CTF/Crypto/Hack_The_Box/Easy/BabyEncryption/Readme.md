@@ -10,4 +10,4 @@
     cipher = ( 123*char + 18 )  % 256
     cipher + (k*256) = 123*char + 18
     cipher + (k*256) - 18 /
-    $x1^2$
+    $x^2$
