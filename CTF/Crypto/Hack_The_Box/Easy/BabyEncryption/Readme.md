@@ -10,4 +10,5 @@
     cipher = ( 123*char + 18 )  % 256
     cipher + (k*256) = 123*char + 18
     cipher + (k*256) - 18 / 123
-> \frac{n!}
+    
+## $\frac{cipher + (k \times 256 ) }{4}$
