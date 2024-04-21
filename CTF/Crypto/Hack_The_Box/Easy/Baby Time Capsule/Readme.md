@@ -14,6 +14,12 @@
 ![image](https://github.com/Ov3rxn4ght-Projects/Trong-Tinh/assets/107429242/0e9577eb-15d8-4677-b480-a5f82207af1a)
 
 
-With the same `e` everytime and new `n` and `m` we can form this:
-
+### With the same `e` everytime and new `n` and `m` we can form this:
+$$
+\begin{align*}
+x &\equiv 2 \pmod{3} \\
+x &\equiv 3 \pmod{5} \\
+x &\equiv 2 \pmod{7}
+\end{align*}
+$$
 
