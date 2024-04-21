@@ -27,5 +27,5 @@
   \end{align*}
   $$
 
-  ### it look the same a [Chinese Remainder Thoerem](https://en.wikipedia.org/wiki/Chinese_remainder_theorem)
+  ### it look the same as [Chinese Remainder Thoerem](https://en.wikipedia.org/wiki/Chinese_remainder_theorem)
 
