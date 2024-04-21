@@ -13,5 +13,5 @@
     
 ### char = $\frac{cipher + (k \times 256 )  -  18 }{123}$
 
-### The full code snipshet see the 'solve.py'
+### The full code snippet see the [solve.py](solve.py)
 
