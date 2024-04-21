@@ -15,11 +15,17 @@
 
 
 ### With the same `e` everytime and new `n` and `m` we can form this:
-$$
-\begin{align*}
-x &\equiv 2 \pmod{3} \\
-x &\equiv 3 \pmod{5} \\
-x &\equiv 2 \pmod{7}
-\end{align*}
-$$
+  $$
+  \begin{align*}
+  x^e &\equiv m_1 \pmod{n_1} \\
+  x^e &\equiv m_2 \pmod{n_2} \\
+  x^e &\equiv m_3 \pmod{n_3} \\
+  .. \\
+  .. \\
+  .. \\
+  x^e &\equiv m_i \pmod{n_i} 
+  \end{align*}
+  $$
+
+  ### it look the same a [Chinese Remainder Thoerem](https://en.wikipedia.org/wiki/Chinese_remainder_theorem)
 
