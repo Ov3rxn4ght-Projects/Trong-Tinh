@@ -7,7 +7,7 @@
 ### The Encryption Algorithms take each of the character x in plain text then ( 123*char + 18 ) % 256
 
 ### to solve this we can break down the Algorithms like:
-  cipher = ( 123*char + 18 )  % 256
-  cipher + (k*256) = 123*char + 18
-  cipher + (k*256) - 18 /
-  $$\frac{x}{y}$$
+    cipher = ( 123*char + 18 )  % 256
+    cipher + (k*256) = 123*char + 18
+    cipher + (k*256) - 18 /
+    $$\frac{x}{y}$$
