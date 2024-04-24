@@ -49,4 +49,8 @@ def split_block(data,block_size):
 	return list(int.from_bytes(data[i:i+block_size],'little') for i in range(0,len(data),block_size))
 ```
 
-### the function `padding_pkcs7` apply the padding algorthms "pkcs7" 
+### the function `padding_pkcs7` apply the padding algorthms "pkcs7", you can see [Here](https://node-security.com/posts/cryptography-pkcs-7-padding/) for better understanding. Basically, the data will always be format so that the length will always be format to be divisible by the define `block_size`. If we apply the size `4` with the text `CHH{CENSORED}` then the result will be :
+
+```
+b'CHH{CENSORED}\x03\x03\x03'
+```
