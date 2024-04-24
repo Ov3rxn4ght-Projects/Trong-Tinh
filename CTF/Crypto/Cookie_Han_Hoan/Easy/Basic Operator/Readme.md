@@ -38,3 +38,15 @@ if __name__=='__main__':
 	cipher_flag = ecb_mode(mess)
 	print(cipher_flag)
 ```
+
+### the first part
+```python
+def padding_pkcs7(data,block_size=4):
+	tmp = len(data) + (block_size - len(data) % block_size)
+	return data.ljust(tmp,bytes([block_size-(len(data)%block_size)]))
+
+def split_block(data,block_size):
+	return list(int.from_bytes(data[i:i+block_size],'little') for i in range(0,len(data),block_size))
+```
+
+### the function `padding_pkcs7` apply the padding algorthms "pkcs7" 
